@@ -2,7 +2,7 @@ import Login from "./pages/login/Login";
 import Register from "./pages/signup/Register";
 
 import "./App.css";
-import Signup from "./pages/signup/Signup";
+
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
     >
       <Routes>
         <Route path="login" element={<Login />} />
+        <Route path="Register" element={<Register />} />
       </Routes>
     </div>
   );
