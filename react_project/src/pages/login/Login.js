@@ -58,10 +58,10 @@ const Login = () => {
             Login
           </button>
 
-          <div>
+          <div className="text-center">
             <span className="m-4 ">
               New Here?
-              <Link className="text-blue-500" to="/Register">
+              <Link className="m-2 text-blue-500" to="/Register">
                 Create an Account
               </Link>
             </span>

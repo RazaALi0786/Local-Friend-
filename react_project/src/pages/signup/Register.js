@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Register = () => {
   return (
     <div>
-      <div className="relative p-8 border rounded-md shadow-lg  bg-slate-800 border-slate-400 backdrop-filter backdrop-blur-sm bg-opacity-30">
+      <div className="relative p-8 border rounded-md shadow-lg bg-slate-800 border-slate-400 backdrop-filter backdrop-blur-sm bg-opacity-30">
         <h1 className="mb-6 text-4xl font-bold text-center text-white">
           Register
         </h1>
@@ -66,7 +66,7 @@ const Register = () => {
           <div>
             <span className="m-4 ">
               Already create an Account?
-              <Link className="text-blue-500" to="/Login">
+              <Link className="m-2 text-blue-500" to="/Login">
                 Login
               </Link>
             </span>
