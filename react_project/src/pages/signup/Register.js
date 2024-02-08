@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Register = () => {
   return (
     <div>
-      <div className="relative p-8 border rounded-md shadow-lg bg-slate-800 border-slate-400 backdrop-filter backdrop-blur-sm bg-opacity-30">
+      <div className="relative p-8 bg-opacity-50 border rounded-md shadow-lg bg-slate-800 border-slate-400 backdrop-filter backdrop-blur-sm">
         <h1 className="mb-6 text-4xl font-bold text-center text-white">
           Register
         </h1>
