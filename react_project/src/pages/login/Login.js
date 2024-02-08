@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { BiUser } from "react-icons/bi";
 import { AiOutlineUnlock } from "react-icons/ai";
@@ -62,7 +62,7 @@ const Login = () => {
           <div>
             <span className="m-4 ">
               New Here?
-              <Link className="text-blue-500" to="Register">
+              <Link className="text-blue-500" to="/Register">
                 Create an Account
               </Link>
             </span>
