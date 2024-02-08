@@ -58,7 +58,7 @@ const Login = () => {
             Login
           </button>
 
-          <div className="text-center">
+          <div className="text-centerce">
             <span className="m-4 ">
               New Here?
               <Link className="m-2 text-blue-500" to="/Register">
