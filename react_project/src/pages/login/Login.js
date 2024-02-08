@@ -6,8 +6,8 @@ import { AiOutlineUnlock } from "react-icons/ai";
 const Login = () => {
   return (
     <div>
-      <div className=" bg-slate-800 border border-slate-400 rounded-md p-8 shadow-lg backdrop-filter backdrop-blur-sm bg-opacity-30 relative  ">
-        <h1 className="text-4xl text-white font-bold text-center mb-6">
+      <div className="relative p-8 border rounded-md shadow-lg  bg-slate-800 border-slate-400 backdrop-filter backdrop-blur-sm bg-opacity-30">
+        <h1 className="mb-6 text-4xl font-bold text-center text-white">
           Login
         </h1>
         <form action="">
@@ -23,7 +23,7 @@ const Login = () => {
             >
               Your Email
             </label>
-            <BiUser className="absolute top-0 -mx-3 right-4"/>
+            <BiUser className="absolute top-0 -mx-3 right-4" />
           </div>
 
           <div>
@@ -38,12 +38,11 @@ const Login = () => {
             >
               Your Password
             </label>
-          <AiOutlineUnlock className="absolute mx-5 -mt-5 right-4"/>
-
+            <AiOutlineUnlock className="absolute mx-5 -mt-5 right-4" />
           </div>
 
-          <div className="flex justify-between items-center mt-2">
-            <div className="flex gap-2 items-center">
+          <div className="flex items-center justify-between mt-2">
+            <div className="flex items-center gap-2">
               <input type="checkbox" name="" id="" />
               <label htmlFor="Remember me">Remember Me</label>
             </div>
