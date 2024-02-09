@@ -1,5 +1,5 @@
-import Header from './Components/Header'
-import Footer from './Components/Footer'
+// import Header from './Components/Header'
+// import Footer from './Components/Footer'
 import "./App.css";
 
 import { Outlet, Route, Routes } from "react-router-dom";
@@ -18,9 +18,9 @@ function App() {
       }}
     >
       
-     <Header/>
+     {/* <Header/> */}
      <Outlet/>
-     <Footer/>
+     {/* <Footer/> */}
     </div>
   );
 }
