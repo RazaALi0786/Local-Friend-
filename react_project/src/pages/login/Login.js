@@ -10,7 +10,7 @@ const Login = () => {
         <h1 className="mb-6 text-4xl font-bold text-center text-white">
           Login
         </h1>
-        <form action="">
+        <form action="" onClick={(e)=>e.preventDefault()}>
           <div className="relative my-4">
             <input
               type="email"
