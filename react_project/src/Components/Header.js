@@ -23,10 +23,7 @@ const Header = () => {
             {" "}
             <Link to={"/about"}>About</Link>{" "}
           </li>
-          <li>
-            {" "}
-            <Link to={"/Login"}>Login</Link>{" "}
-          </li>
+         
         </ul>
       </div>
     </div>

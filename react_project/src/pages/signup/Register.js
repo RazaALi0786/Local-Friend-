@@ -73,8 +73,8 @@ const Register = () => {
             </label>
             <AiOutlineUnlock className="absolute mx-5 -mt-5 right-4" />
           </div>
-
-          <p>{err}</p>
+          
+          <p className="text-red-600">{err}</p>
 
           <button
           onClick={createUser}
